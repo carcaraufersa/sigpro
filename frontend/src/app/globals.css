@@ -1,1 +1,101 @@
 @import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background-color);
+}
+
+html.dark {
+  background: var(--background-color);
+}
+
+html.dark body {
+  background: var(--background-color);
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--font-roboto), sans-serif;
+}
+
+body {
+  background: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --primary-color: #FFFBFB;
+  --secondary-color: #002D4D;
+  --background-color: #E1E6FA;
+  --text-color: #111827;
+  --text-color-default: #111827;
+
+  --light-gray: #ECECEC;
+  --dark-gray: #5C5C5C;
+  --medium-gray: #8A8A8A;
+  --accent: #FFFBFB;
+  
+  --divider-color: #BDBDBD;
+
+  --success-color: #4CAF50;
+  --error-color: #B42A00;
+  --warning-color: #FF9800;
+  --info-color: #2196F3;
+  --cyan-color: #91D2DE;
+
+  --font-xs: 0.75rem;   /* 12px */
+  --font-sm: 0.875rem;  /* 14px */
+  --font-md: 1rem;      /* 16px */
+  --font-lg: 1.125rem;  /* 18px */
+  --font-xl: 1.25rem;   /* 20px */
+  --font-2xl: 1.5rem;   /* 24px */
+  --font-4xl: 2.25rem;  /* 36px */
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.625rem;
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+
+  --shadow-md: 0 4px 14px rgba(0,0,0,0.12);
+}
+
+.dark {
+  --primary-color: #1F2636;
+  --secondary-color: #002D4D;
+  --background-color: #11141C;
+  --text-color: #FFFBFB;
+}
