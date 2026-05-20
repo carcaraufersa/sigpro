@@ -10,7 +10,7 @@ type Props = {
 
 export default function AuthLayout({
   children,
-  imageSrc = '/svg-students.svg',
+  imageSrc = '/estudantes.svg',
   imageAlt = 'Auth image',
 }: Props) {
   return (

@@ -34,12 +34,6 @@ a {
   color: inherit;
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  background: none;
-}
-
 ul,
 ol {
   list-style: none;

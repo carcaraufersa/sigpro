@@ -12,7 +12,7 @@ export default function WelcomePage() {
       <Link href="/login">
         Ir para Login
       </Link>
-
+    
     </main>
   );
 }

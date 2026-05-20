@@ -36,7 +36,7 @@ export default function AuthCard({
         }}
       >
         <Image
-          src="/svg-logo-ufersa.svg"
+          src="/logo-ufersa.svg"
           alt="UFERSA"
           width={220}
           height={80}
